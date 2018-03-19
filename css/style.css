@@ -9,8 +9,10 @@ body{
     width:600px;
     margin: 0 auto;
     height: auto;
-    background: linear-gradient( rgb(45, 133, 130),rgb(122, 233, 229));
+    background: linear-gradient( #e65c00,#F9D423);
+    
 }
+
 
 
 /*********************************************************************/
@@ -30,48 +32,48 @@ body{
 
 img.weather-icon{
     position: relative;
-    width: 200px;
-    margin: 20px auto;
-    border-radius: 50%;
-    box-shadow: 2px 5px 4px #888888;
+    width: 250px;
+    margin: 0 auto;
 }
 
 
 
 
 /* CITY and DATE CONTAINER */
-.weather-date{
+section.weather-date{
     margin: -10px auto;
     text-align: center;
-    border: 1px solid  rgb(26, 80, 78);
-    border-radius: 20px;
-    width: 80%
+    background: url("../images//bkg_photo2.png")center center no-repeat;
+    background-size: cover;
+    width: 100%;
 }
 
 h1.city-name{
-    color: rgb(26, 80, 78);
+    color: rgb(46, 46, 46);
+    font-weight: bold;
     text-transform: uppercase;
 }
 
 .day-week{
-    color: rgb(26, 80, 78);
+    color: rgb(46, 46, 46);
     clear: both;
 }
 
 p{
     font-size: 19px;
     line-height: 90%;
-    color: rgb(26, 80, 78);
+    color: rgb(46, 46, 46);
 }
 
 
 
 .grade-text{
     clear: both;
-    margin: 0 auto;
+    font-weight: bold;
+    margin: 5px auto;
     position: relative;
     font-size: 5em;
-    color:  rgb(45, 133, 130);
+    color: white;
 }
 
 /* DETAIL BOXES */  
@@ -87,7 +89,7 @@ p{
 .detail-box{
     position: relative;
     display: inline-block;
-    opacity: 0.5;
+    opacity: 0.8;
     top: 50px;
     margin: 5px;
     width: 30%;

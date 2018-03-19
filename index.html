@@ -12,15 +12,19 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3mobile.css">
     <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
-    
+    <script src="js/main.js" defer></script>
     
 </head>
 
 <body>
 
-    <nav class="w3-sidebar w3-bar-block w3-card" id="mySidebar">
-        <div class="w3-container w3-theme-d2">
-            <span onclick="closeSidebar()" class="w3-button w3-display-topright w3-large">X</span>
+<main>
+
+    
+
+    <nav class="w3-sidebar w3-bar-block w3-card w3-red" id="mySidebar">
+        <div class="w3-container w3-red">
+            <span onclick="closeSidebar()" class="w3-button w3-display-topright w3-large w3-red">X</span>
             <br>
             <div class="w3-padding w3-center">
                 <img class="weather-icon" src="images/weather-logo.png" alt="avatar" style="width:75%">
@@ -32,8 +36,8 @@
         <a class="w3-bar-item w3-button" href="#">Messages</a> -->
     </nav>
 
-    <header class="w3-bar w3-card w3-theme">
-        <button class="w3-bar-item w3-button w3-xxxlarge w3-hover-theme">&#9776;</button>
+    <header class="w3-bar w3-card w3-red">
+        <button class="w3-bar-item w3-button w3-xxxlarge  w3-red">&#9776;</button>
         <h1 class="w3-bar-item">Weather</h1>            
     </header>
 
@@ -126,13 +130,14 @@
             </div>
     </section>
 
-    <footer class="footer w3-container w3-theme w3-margin-top">
+    <footer class="footer w3-container w3-red w3-margin-top">
         <h3 class="footer">Footer</h3>
     </footer>
 
+</main>
+
 
     <script src="js/slidebar.js"></script>
-    <script src="js/main.js" defer></script>
 </body>
 
 </html>

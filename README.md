@@ -20,4 +20,6 @@ soligt väder eller regnmoln vid regn)
 - Github skall användas för att lagra och versionshantera all kod
 
 Api:  https://openweathermap.org/forecast5#min <br>
-Icons: https://openweathermap.org/weather-conditions
+Icons: https://openweathermap.org/weather-conditions <br>
+GitPages: https://paulonova.github.io/WeatherApp/
+

@@ -19,5 +19,5 @@ med är Min/Max temperatur, datum samt en ikon för väderförhållanden (tex en
 soligt väder eller regnmoln vid regn)
 - Github skall användas för att lagra och versionshantera all kod
 
-Api:  https://openweathermap.org/forecast5#min
+Api:  https://openweathermap.org/forecast5#min <br>
 Icons: https://openweathermap.org/weather-conditions

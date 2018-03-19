@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster&effect=brick-sign">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3mobile.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <script src="js/main.js" defer></script>
+    
+</head>
+
+<body>
+
+    <nav class="w3-sidebar w3-bar-block w3-card" id="mySidebar">
+        <div class="w3-container w3-theme-d2">
+            <span onclick="closeSidebar()" class="w3-button w3-display-topright w3-large">X</span>
+            <br>
+            <div class="w3-padding w3-center">
+                <img class="weather-icon" src="images/weather-logo.png" alt="avatar" style="width:75%">
+                
+            </div>
+        </div>
+        <!-- <a class="w3-bar-item w3-button" href="#">Movies</a>
+        <a class="w3-bar-item w3-button" href="#">Friends</a>
+        <a class="w3-bar-item w3-button" href="#">Messages</a> -->
+    </nav>
+
+    <header class="w3-bar w3-card w3-theme">
+        <button class="w3-bar-item w3-button w3-xxxlarge w3-hover-theme">&#9776;</button>
+        <h1 class="w3-bar-item">Weather</h1>            
+    </header>
+
+    <section class="weather-container">
+            <img id="icon" class="weather-icon" src="images/codes/300.png" alt="weather icon">
+    </section>
+    
+        
+    <section class="weather-date">
+        <h1 id="location" class="city-name">City name</h1>
+        <p id="day-week" class="day-week">Sunday</p>
+        
+        <p id="time" class="time">Time</p>
+        <p id="date" class="date-week">Some date</p>
+        <p id="temperature" class="grade-text">2&#x2103;</p>    
+    </section>
+
+    <section class="weather-prognos">
+
+            <div class="detail-prognos">
+                <div class="iconDate">
+                    <h5 id="datum1">Day 1</h5>
+                    <img id="prog_icon1" src="images/codes1/800.png">
+                </div>
+                <div class="temperMaxMin">
+                    <p id="temp_max1">0&#x2103;</p>
+                    <p id="temp_min1">0&#x2103;</p>
+                </div>
+            </div>
+    
+            <div class="detail-prognos">
+                <div class="iconDate">
+                    <h5 id="datum2">Day 2</h5>
+                    <img id="prog_icon2" src="images/codes1/800.png">
+                </div>
+                <div class="temperMaxMin">
+                    <p id="temp_max2">0&#x2103;</p>
+                    <p id="temp_min2">0&#x2103;</p>
+                </div>
+            </div>
+    
+            <div class="detail-prognos">
+                <div class="iconDate">
+                    <h5 id="datum3">Day 3</h5>
+                    <img id="prog_icon3" src="images/codes1/800.png">
+                </div>
+                <div class="temperMaxMin">
+                    <p id="temp_max3">0&#x2103;</p>
+                    <p id="temp_min3">0&#x2103;</p>
+                </div>
+            </div>
+    
+            <div class="detail-prognos">
+                <div class="iconDate">
+                    <h5 id="datum4">Day 4</h5>
+                    <img id="prog_icon4" src="images/codes1/800.png">
+                </div>
+                <div class="temperMaxMin">
+                    <p id="temp_max4">0&#x2103;</p>
+                    <p id="temp_min4">0&#x2103;</p>
+                </div>
+            </div>
+    
+            <div class="detail-prognos">
+                <div class="iconDate">
+                    <h5 id="datum5">Day 5</h5>
+                    <img id="prog_icon5" src="images/codes1/800.png">
+                </div>
+                <div class="temperMaxMin">
+                    <p id="temp_max5">0&#x2103;</p>
+                    <p id="temp_min5">0&#x2103;</p>
+                </div>
+            </div>
+    
+        </section>
+
+    <section class="weather-dt-boxes">
+            <div class="detail-box">
+                <h5>Humidity</h5>
+                <p id="humidity">0</p>
+    
+            </div>
+            <div class="detail-box">
+                <h5>Wind</h5>
+                <p id="wind">0 mpm</p>
+            </div>
+            <div class="detail-box">
+                <h5>Direction</h5>
+                <p id="direction">N</p>
+            </div>
+    </section>
+
+    <footer class="footer w3-container w3-theme w3-margin-top">
+        <h3 class="footer">Footer</h3>
+    </footer>
+
+
+    <script src="js/slidebar.js"></script>
+</body>
+
+</html>
